@@ -4,11 +4,18 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+
+let list = <ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>,
+  list ,document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
